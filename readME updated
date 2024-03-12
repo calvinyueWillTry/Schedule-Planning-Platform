@@ -1,2 +1,15 @@
 #Schedule-Planning-Platform
-I started with inspecting the HTML, and by inspecting the page, identifying what was located where. I then created and linked style.css and javascript.js pages
+Note: See screenshot folder for screenshots that I reference throughout. 
+I started with inspecting the HTML, and by inspecting the page, identifying what was located where. 
+I then created and linked style.css and javascript.js pages, which you will notice in the screenshots "HTML 1" and "HTML 4."
+As noted in in screenshots "HTML 2" and "HTML 3," I also copied the template time slots to create a full day. 
+I then went to CSS, and as notable is screenshot "CSS 2," I added a button hover feature, and also added different background colors
+in order to distinguish the time slots (screenshots "Webpage Head" and "Webpage End").
+In JavaScript (screenshot "JavaScript 1"), after playing around considerably, I gave the button a jQuery function to be on for the save icon and surounding area, 
+and when clicked, enact the function enterText, where it it target is the class of the button.
+I also have to get the class of i instead of just the button. Since the i is the child of the button, in addition to this then redirecting the value to the button,
+I also must identify that the button and icon (put on the same level by the parent method). By clicking the save button/icon, it then triggers the logText function.
+(screenshots "JavaScript 2" and "Webpage local storage") This will then take the text entered into the textarea, and then get into local storage. It's redirected to find the 
+same parentID again, in order to avoid finding the same class (so id instead of class) for the time slot. Then find the textarea associated with it, and get the value 
+from local storage. (screenshot "JavaScript 3") Then the text will be saved in that time slot, even when the page is refreshed, 
+only changed/removed after clicking the save area.
